@@ -59,25 +59,6 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <div className="relative flex items-center justify-center py-10 md:py-20 w-full">
-                            <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
-                            <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl flex justify-center">
-                                <iframe
-                                    width="720"
-                                    height="480"
-                                    src="https://www.youtube.com/embed/QtpHDLzFc-M?si=6Nvm9412CgMvc_l9"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerPolicy="strict-origin-when-cross-origin"
-                                    allowFullScreen
-                                    className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
-                                ></iframe>
-
-                                <BorderBeam size={250} duration={12} delay={9} />
-                            </div>
-                        </div>
-
 
                     </div>
                 </Container>
