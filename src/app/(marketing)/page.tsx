@@ -24,7 +24,6 @@ const HomePage = () => {
             {/* hero */}
             <Wrapper>
                 <div className="absolute inset-0 dark:bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)] -z-10 h-[150vh]" />
-
                 <Container>
                     <div className="flex flex-col items-center justify-center py-20 h-full">
                         <button className="group relative grid overflow-hidden rounded-full px-4 py-1 shadow-[0_1000px_0_0_hsl(0_0%_20%)_inset] transition-colors duration-200">
@@ -35,46 +34,51 @@ const HomePage = () => {
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5">
                                 <Image src="/icons/sparkles-dark.svg" alt="✨" width={24} height={24} className="w-4 h-4" />
-                                Introducing Astra AI
+                                Welcome to Capscyber
                                 <ChevronRight className="w-4 h-4" />
                             </span>
                         </button>
 
                         <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
                             <h1 className="text-4xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
-                                Build your next idea and ship your dream site
+                                Buka usaha impianmu dengan mudah.
                             </h1>
                             <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
-                                Zero code, maximum speed. Make professional sites easy, fast and fun while delivering best-in-class SEO, performance.
+                                Pelayanan Cepat, Pengerjaan Professional, Dan Pastinya Harga Bersahabat.
                             </p>
                             <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                                 <Link href="#" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
-                                        ✨ {"  "} Start building your dream website now!
+                                        ✨ {"  "} Mulai Bangun Usaha Impianmu Sekarang!
                                     </p>
                                     <Button size="sm" className="rounded-full hidden lg:flex border border-foreground/20">
-                                        Get Started
+                                        Mulai Sekarang
                                         <ArrowRight className="w-4 h-4 ml-1" />
                                     </Button>
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="relative flex items-center py-10 md:py-20 w-full">
+                        <div className="relative flex items-center justify-center py-10 md:py-20 w-full">
                             <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
-                            <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
-                                <Image
-                                    src="/assets/dashboard.svg"
-                                    alt="banner image"
-                                    width={1200}
-                                    height={1200}
-                                    quality={100}
+                            <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl flex justify-center">
+                                <iframe
+                                    width="720"
+                                    height="480"
+                                    src="https://www.youtube.com/embed/QtpHDLzFc-M?si=6Nvm9412CgMvc_l9"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerPolicy="strict-origin-when-cross-origin"
+                                    allowFullScreen
                                     className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
-                                />
+                                ></iframe>
 
                                 <BorderBeam size={250} duration={12} delay={9} />
                             </div>
                         </div>
+
+
                     </div>
                 </Container>
             </Wrapper>
@@ -85,10 +89,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="The Process" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Three steps to build your dream website
+                            Tiga langkah membangun usaha impianmu
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Turn your vision into reality in just 3 simple steps
+                            Ubah visi Anda menjadi kenyataan hanya dalam 3 langkah sederhana
                         </p>
                     </div>
                 </Container>
@@ -121,10 +125,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="Features" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Discover our powerful features
+                            Temukan fitur-fitur canggih kami
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Astra offers a range of features to help you build a stunning website in no time
+                            Capscyber menawarkan berbagai fitur untuk membantu Anda membangun situs web yang memukau dalam waktu singkat
                         </p>
                     </div>
                 </Container>
@@ -161,10 +165,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="Pricing" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Unlock the right plan for your business
+                            Buka paket yang tepat untuk bisnis Anda
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Choose the best plan for your business and start building your dream website today
+                            Pilih paket terbaik untuk bisnis Anda dan mulailah membangun situs web impian Anda hari ini
                         </p>
                     </div>
                 </Container>
@@ -220,10 +224,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="Our Customers" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            What people are saying
+                            Testimoni Orang-Orang
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            See how Astra empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
+                        Lihat bagaimana Caps memberdayakan bisnis dari berbagai skala. Inilah yang dikatakan orang-orang di indonesia
                         </p>
                     </div>
                 </Container>
@@ -287,14 +291,14 @@ const HomePage = () => {
                     <LampContainer>
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
                             <h2 className="text-4xl lg:text-5xl xl:text-6xl lg:!leading-snug font-semibold mt-8">
-                                From Idea to Launch <br /> Faster Than Ever
+                                Dari Ide Hingga Peluncuran <br /> Lebih Cepat Dari Sebelumnya
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Build stunning websites with Astra&apos;s intuitive drag-and-drop builder and powerful AI assistant
+                                Buat situs web yang memukau dengan mudah dan cepat.
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
-                                    Get started for free
+                                    Mulai Sekarang
                                     <ArrowRight className="w-4 h-4 ml-2" />
                                 </Link>
                             </Button>
@@ -303,37 +307,19 @@ const HomePage = () => {
                 </Container>
                 <Container className="relative z-[999999]">
                     <div className="flex items-center justify-center w-full -mt-40">
-                        <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between w-full px-4 md:px-8 rounded-lg lg:rounded-2xl border border-border/80 py-4 md:py-8">
-                            <div className="flex flex-col items-start gap-4 w-full">
-                                <h4 className="text-xl md:text-2xl font-semibold">
-                                    Join our newsletter
+                        <div className="flex flex-col items-center justify-center w-full px-4 md:px-8 rounded-lg lg:rounded-2xl border border-border/80 py-4 md:py-8">
+                            <div className="flex flex-col items-center gap-4 w-full"> {/* Changed items-start to items-center */}
+                                <h4 className="text-xl md:text-2xl font-semibold text-center"> {/* Added text-center class */}
+                                    Jadi Tunggu Apalagi? 
                                 </h4>
-                                <p className="text-base text-muted-foreground">
-                                    Be up to date with everything about AI builder
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">
-                                <form action="#" className="flex flex-col md:flex-row items-center gap-2 w-full md:max-w-xs">
-                                    <Input
-                                        required
-                                        type="email"
-                                        placeholder="Enter your email"
-                                        className="focus-visible:ring-0 focus-visible:ring-transparent focus-visible:border-primary duration-300 w-full"
-                                    />
-                                    <Button type="submit" size="sm" variant="secondary" className="w-full md:w-max">
-                                        Subscribe
-                                    </Button>
-                                </form>
-                                <p className="text-xs text-muted-foreground">
-                                    By subscribing you agree with our{" "}
-                                    <Link href="#">
-                                        Privacy Policy
-                                    </Link>
+                                <p className="text-base text-muted-foreground text-center"> {/* Added text-center class */}
+                                    Jalankan bisnis anda bersama kami sekarang.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </Container>
+
             </Wrapper>
 
         </section>

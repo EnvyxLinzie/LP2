@@ -16,7 +16,7 @@ const Navbar = async () => {
                         <Link href="/" className="flex items-center gap-2">
                             <Icons.logo className="w-8 h-8" />
                             <span className="text-lg font-medium">
-                                Astra
+                                Capscyber
                             </span>
                         </Link>
                     </div>
@@ -33,11 +33,11 @@ const Navbar = async () => {
                             <UserButton />
                         ) : (
                             <>
-                                <Link href="/sign-in" className={buttonVariants({ size: "sm", variant: "ghost" })}>
+                                <Link href="#" className={buttonVariants({ size: "sm", variant: "ghost" })}>
                                     Login
                                 </Link>
-                                <Link href="/sign-up" className={buttonVariants({ size: "sm", className: "hidden md:flex" })}>
-                                    Start free trial
+                                <Link href="#" className={buttonVariants({ size: "sm", className: "hidden md:flex" })}>
+                                    Contact Us
                                 </Link>
                             </>
                         )}

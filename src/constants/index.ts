@@ -3,18 +3,18 @@ import { Icons } from "@/components";
 export const perks = [
     {
         icon: Icons.auth,
-        title: "Sign Up",
-        info: "Create your free account to get started with Astra.",
+        title: "Contact Us",
+        info: "Hubungi Kami Untuk Melakukan Konsultasi.",
     },
     {
         icon: Icons.customize,
         title: "Customize",
-        info: "Choose a template and customize it to fit your needs.",
+        info: "Pilih Jasa Yang Kamu Inginkan Dan Kamu Mau.",
     },
     {
         icon: Icons.launch,
         title: "Launch",
-        info: "Publish your website and share it with the world.",
+        info: "Publish Jasa Yang Kamu Order Dengan Kami Kepada Client Kalian.",
     },
 ];
 
@@ -22,65 +22,65 @@ export const features = [
     {
         icon: Icons.bolt,
         title: "Fast Setup",
-        info: "Get your website up and running in minutes with our intuitive AI-powered builder.",
+        info: "Pengerjaan Cepat Dan Professional.",
     },
     {
         icon: Icons.palette,
         title: "Customizable Templates",
-        info: "Choose from a variety of stunning templates and customize them to suit your brand.",
+        info: "Bebas Revisi Sesuai Yang Kalian Mau.",
     },
     {
         icon: Icons.seo,
         title: "SEO Optimized",
-        info: "Built-in SEO features ensure your website ranks well on search engines.",
+        info: "Websitemu Mudah Muncul Di Pencarian Google.",
     },
     {
         icon: Icons.monitor,
         title: "Responsive Design",
-        info: "Your website will look great on any device, from desktops to mobile phones.",
+        info: "Websitemu Bisa Dibuka Di Device Apa Saja Tanpa Mengurangi Kenyamanan Client.",
     },
     {
         icon: Icons.shop,
         title: "E-Commerce Ready",
-        info: "Start selling online with our e-commerce features and integrations.",
+        info: "Mau Fitur Jualan Online Juga? Kami Sediakan Sesuai Request Kalian.",
     },
     {
         icon: Icons.server,
         title: "Secure Hosting",
-        info: "Enjoy peace of mind with secure and reliable hosting for your website.",
+        info: "Kami Kasih Bonus Free Server Hosting 1 Tahun Untuk Kalian.",
     },
 ];
 
 export const pricingCards = [
     {
         title: "Starter",
-        description: "Perfect for trying out plura",
-        price: "Free",
+        description: "Cocok untuk mencoba jasa kami",
+        price: "Mulai 1 JT",
         duration: "",
         highlight: "Key features",
-        buttonText: "Start for free",
-        features: ["Limited projects", "1 Team member", "Basic features"],
+        buttonText: "Order Sekarang",
+        features: ["Limited features", "3x Revisi", "Standard design", "Free Domain", "Free Hosting"],
         priceId: "",
     },
     {
-        title: "Unlimited Saas",
-        description: "The ultimate agency kit",
-        price: "$199",
-        duration: "month",
+        title: "Advanced",
+        description: "Cocok untuk membangun branding",
+        price: "",
+        duration: "",
         highlight: "Key features",
-        buttonText: "Upgrade to Pro",
-        features: ["Unlimited projects", "5 Team members", "Advanced design tools", "Customizable domain"],
-        priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
+        buttonText: "Hubungi Kami",
+        features: ["Advanced design request", "5x Revisi", "Free Support", "Free domain", "Free Hosting"],
+        priceId: "",
     },
     {
         title: "Enterprise",
-        description: "For serious agency owners",
-        price: "$399",
-        duration: "month",
+        description: "Cocok Untuk Owner Big Company Indonesia",
+        price: "",
+        duration: "",
         highlight: "Everything in Starter, plus",
-        buttonText: "Upgrade to Enterprise",
-        features: ["Unlimited projects", "Unlimited Team members", "Custom branding", "Priority support (24/7)"],
-        priceId: "price_1OYxkqFj9oKEERu1NbKUxXxN",
+        buttonText: "Hubungi Kami",
+        features: ["Unlimited projects", "Unlimited Team members", "Custom branding", "Priority support (24/7)", "Free Hosting"],
+        priceId: "",
     },
 ];
 
